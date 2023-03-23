@@ -17,7 +17,7 @@ public class CombinedTest {
             assertEquals(expectedArea, actualArea, 0.001);
         }
 
-    @org.junit.jupiter.api.Test
+    @Test
     public void testPrintNumbers() {
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
